@@ -1,4 +1,6 @@
-# dev-environment
-Basic dev environment with Webpack and Babel 
+# dev-environment-with-storybook
+Forked from... update with upstream
 ## tl;dr
 `npm i && npm start`
+## update
+update from upstream
