@@ -1,13 +1,15 @@
 {
-  "name": "dev-environment",
+  "name": "dev-environment-with-storybook",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
+    "build-storybook": "build-storybook",
     "generateComponent": "node src/cli/generateComponent",
     "start": "webpack server --open --mode development",
+    "storybook": "start-storybook -p 6006",
     "test": "jest"
   },
   "repository": {
@@ -31,6 +33,12 @@
     "@babel/preset-react": "~7.14.5",
     "@testing-library/react": "^13.4.0",
     "babel-jest": "^29.2.2",
+    "@storybook/addon-actions": "~6.3.2",
+    "@storybook/addon-essentials": "~6.3.2",
+    "@storybook/addon-links": "~6.3.2",
+    "@storybook/builder-webpack5": "~6.3.2",
+    "@storybook/manager-webpack5": "~6.3.2",
+    "@storybook/react": "~6.3.2",
     "babel-loader": "~8.2.2",
     "classnames": "~2.3.1",
     "css-loader": "~5.2.6",
