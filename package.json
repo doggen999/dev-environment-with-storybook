@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/doggen999/dev-environment.git"
+    "url": "git+https://github.com/doggen999/dev-environment-with-storybook.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/doggen999/dev-environment/issues"
+    "url": "https://github.com/doggen999/dev-environment-with-storybook/issues"
   },
-  "homepage": "https://github.com/doggen999/dev-environment#readme",
+  "homepage": "https://github.com/doggen999/dev-environment-with-storybook#readme",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
