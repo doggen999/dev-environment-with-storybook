@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Component.scss";
 
-export const Component = () => {
+export const Component = (props) => {
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {
@@ -15,7 +15,8 @@ export const Component = () => {
   return (
     <div className={styles.foo}>
       <div className={`${styles.bar}`}>
-        <h1>{time.toLocaleTimeString()}</h1>
+        <h1>{props.heading}</h1>
+        <div>{time.toLocaleTimeString()}</div>
       </div>
     </div>
   );
