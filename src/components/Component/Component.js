@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import PropTypes from "prop-types";
+
 import styles from "./Component.scss";
 
 export const Component = (props) => {
@@ -20,4 +22,8 @@ export const Component = (props) => {
       </div>
     </div>
   );
+};
+
+Component.propTypes = {
+  heading: PropTypes.string.isRequired,
 };
